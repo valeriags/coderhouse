@@ -11,6 +11,10 @@ var sum = alert(number2 + (+ number1));*/
 
 //Third exercise//
 
-var number1 = prompt("Write a number without decimals");
+/*var number1 = prompt("Write a number without decimals");
 var number2 = 50
-var sum = alert(number1 - ( number2)); 
+var sum = alert(number1 - ( number2)); */
+
+//Fourth exercise//
+
+//test
