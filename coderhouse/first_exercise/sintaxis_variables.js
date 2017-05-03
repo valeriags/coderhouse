@@ -31,5 +31,65 @@ function fourthExercise(){
 
 //firstExercise();
 //secondExercise();
-thirdExercise();
+//thirdExercise();
 //fourthExercise();
+
+/* CoderHouse
+   Second exercise:
+
+Sintaxis y Variables
+
+Realizar una calculadora que realize las siguientes operaciones sumar, restar, multiplicar y dividir:
+
+Debera ingresar un valor mediante un prompt
+Debera ingresar otro valor mediante otro prompt
+Mostrar el resultado de cada operacion mediante distintos alert
+
+*/
+
+function addition(){
+	var firstValue = prompt("Input first value");
+	var secondValue = prompt("Input second value");
+	var firstValue = Number(firstValue);
+	var secondValue = Number(secondValue);
+
+	var addition = alert("Result: " + (firstValue + secondValue));
+}
+
+
+function subtraction(){
+	var firstValue = prompt("Input first value");
+	var secondValue =prompt("Input second value");
+	var firstValue = Number(firstValue);
+	var secondValue = Number (secondValue);
+
+	var subtraction = alert("Result: " + (firstValue - secondValue));
+}
+
+
+function multiplication(){
+	var firstValue = prompt("Input first value");
+	var secondValue = prompt("Input second value");
+	var firstValue = Number (firstValue);
+	var secondValue = Number (secondValue);
+
+	var multiplication = alert("Result: " + (firstValue * secondValue));
+}
+
+function division(){
+	var firstValue = prompt("Input first value");
+	var secondValue = prompt("Input second value")
+	var firstValue = Number(firstValue);
+	var secondValue = Number(secondValue);
+
+	var division = alert("Result: " + (firstValue / secondValue));
+}
+
+//addition();
+//subtraction();
+multiplication();
+//division();
+
+
+
+
