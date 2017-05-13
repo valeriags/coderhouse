@@ -16,23 +16,27 @@ for(i=0; i<=6; i++){
 
 //SEGUNDO EJERCICIO//
 
-var diasSemana = ["LUNES","martes","MIERCOLES", "JUEVES", "VIERNES", "SABADO","DOMINGO","LUNES"];
-var diaCliente = prompt("Ingresa un día cualquiera");
-var diaCliente = diaCliente.toUpperCase();
+var diasSemana = ["lunes","martes","miércoles", "jueves", "viernes", "sábado","domingo"];
+var diaCliente = prompt("Ingresa un día cualquiera").toUpperCase();
 
 
 for(i=0; i<diasSemana.length; i++) {
 
-	if((diaCliente == diasSemana[i].toUpperCase()) && (diaCliente != "DOMINGO" || diaCliente != "SABADO")) {
-		console.log("Tenés una coincidencia con " + diasSemana[i] + ". El día es laboral");
-		break;	
-	}
-	else if((diaCliente == diasSemana[i].toUpperCase()) && (diaCliente == "DOMINGO" || diaCliente == "SABADO")) {
-	console.log("el día es: ", diasSemana[i], "y No es laboral");
-	break;
-	}
-	else
-		console.log("No hay coincidencia o el valor ingresado no es válido"); 
-	break;
-	}
+	if(diaCliente == diasSemana[i])
+		console.log(diasSemana);
+	
+}
 
+	/*
+	if((diaCliente == diasSemana[i].toUpperCase()) && (diaCliente == [5] || diaCliente == [6])) {
+		console.log("el día es: ", diasSemana[i], "y No es laboral");
+		break;
+	}
+	
+	else if (diasSemana != diasSemana){
+		console.log("No hay coincidencia o el valor ingresado no es válido");
+	}
+	*/
+//console.log("Tenés una coincidencia con " + diasSemana[i] + ". El día es laboral");//
+	
+//&& (diaCliente !== [5] || diaCliente !== [6]))// {
