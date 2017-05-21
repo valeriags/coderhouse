@@ -1,3 +1,5 @@
+
+
 var primerNumero = prompt("Ingrese el primer valor numérico");
 var operadorCliente = prompt("Ingrese tipo de operación")
 var segundoNumero = prompt("Ingrese el segundo valor numérico");
@@ -23,6 +25,6 @@ function calcular_division(primer_numero, operacion, segundo_){
 	return(resultado);
 }
 calcular_suma (primerNumero, operadorCliente, segundoNumero);
-calcular_resta(primerNumero, operadorCliente, segundoNumero);
-calcular_multiplicacion(primerNumero, operadorCliente, segundoNumero);
-calcular_division(primerNumero, operadorCliente, segundoNumero);
+// calcular_resta(primerNumero, operadorCliente, segundoNumero);
+// calcular_multiplicacion(primerNumero, operadorCliente, segundoNumero);
+// calcular_division(primerNumero, operadorCliente, segundoNumero);
